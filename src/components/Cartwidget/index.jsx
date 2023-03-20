@@ -1,8 +1,11 @@
 import React from 'react';
 
-const Cartwidge = () => {
+export const Cartwidge = () => {
+  
   return (
-    <i className="bi bi-cart3"></i>
+    <>
+      <i className="bi bi-cart3"></i>
+    </>
   )
 }
 
