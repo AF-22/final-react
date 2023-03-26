@@ -1,9 +1,14 @@
 import Item from '../Item'
 import React from 'react'
+import '../ItemList/itemList.css'
 
 const ItemList = ({data = []}) => {
   return (
-    data.map(film => <Item key={film.id} info={film} />)
+    <div className='itemList'>
+      {
+        data.map(film => <Item key={film.id} info={film} />)
+      }
+    </div>
   );
 }
 

@@ -1,5 +1,5 @@
 .film {
-    display: block;
+    display: grid;
     width: 300px;
 }
 

@@ -1,0 +1,17 @@
+.itemCart {
+    display: flex;
+    border-bottom: 1px solid var(--color-gray-100);
+    max-width: 500px;
+    margin: 1rem auto;
+    padding: 5rem 0 1rem 0;
+}
+
+.itemCart img {
+    width: 200px;
+    margin-right: 1rem;
+}
+
+p {
+    color: var(--color-gray-100);
+    padding: .5rem;
+}

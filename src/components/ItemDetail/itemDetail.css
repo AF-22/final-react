@@ -13,19 +13,32 @@
 
 .detail__image {
     width: 100%;
+    border-radius: 2rem;
 }
 
 .content {
-    width: 100%;
+    width: 50%;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1024px) {
     .container {
         width: 70%;
     }
 
     .detail__image{
         width: 50%;
+    }
+
+    .content {
+        padding-left: 3rem;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:600px) {
+  
+    .detail__image{
+        width: 30%;
     }
 
     .content {
