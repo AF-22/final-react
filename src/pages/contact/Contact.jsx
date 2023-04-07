@@ -1,8 +1,5 @@
 import Header from '../../components/Header'
 import HeaderImage from '../../images/header_bg_2.png'
-import {MdEmail} from 'react-icons/md'
-import {BsMessenger} from 'react-icons/bs'
-import {IoLogoWhatsapp} from 'react-icons/io'
 import './contact.css'
 
 const About = () => {
@@ -14,9 +11,9 @@ const About = () => {
     <section className='contact'>
       <div className="container contact__container">
         <div className="contact__wrapper">
-          <a href="mailto:afsfdez@gmail.com" target='_blank'rel="noreferrer"><MdEmail/></a>
-          <a href="http://m.me/facebook" target='_blank'rel="noreferrer"><BsMessenger/></a>
-          <a href="https://wa.me/+573015707989" target='_blank'rel="noreferrer"><IoLogoWhatsapp/></a>
+          <a href="mailto:afsfdez@gmail.com" target='_blank'rel="noreferrer"><i class="bi bi-envelope"></i></a>
+          <a href="http://m.me/facebook" target='_blank'rel="noreferrer"><i class="bi bi-facebook"></i></a>
+          <a href="https://wa.me/+573015707989" target='_blank'rel="noreferrer"><i class="bi bi-whatsapp"></i></a>
         </div>
       </div>
     </section>
